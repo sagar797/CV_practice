@@ -1,0 +1,123 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+}
+
+h1 {
+    color: green;
+    font-family: 'Sacramento', cursive;
+    font-size: 550%;
+    margin: 75px auto 0 auto;
+    line-height: 1.6;
+}
+
+h2 {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h3,
+a {
+    color: #11999E;
+}
+
+.myName {
+    text-align: center;
+    padding-top: 100px;
+    background-color: lightskyblue;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.developer {
+    text-decoration: underline;
+}
+
+.sagar {
+    height: 300px;
+    border-radius: 15rem;
+    margin-top: 30px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+}
+
+hr {
+    border: dotted #11999E 5px;
+    border-bottom: none;
+    width: 10%;
+    margin: 75px auto;
+}
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    /* margin: auto; */
+    line-height: 2;
+    padding: 10px;
+}
+
+.img-1 {
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
+.img-2 {
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+}
+
+.button {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5rem;
+    background-color: rgb(103, 252, 244);
+}
+
+.button a {
+    color: black;
+}
+
+
+/* footer */
+
+.contact-me {
+    padding-bottom: 20px;
+}
+
+.bottom-container {
+    background-color: black;
+    padding: 30px auto 20px auto;
+    margin: 0px;
+    padding: 10px;
+}
+
+.bottom-container a {
+    width: 20%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    /* border: 1px solid lightseagreen; */
+    /* border-radius: 10px; */
+}
+
+.bottom-container a:hover {
+    color: red;
+}
